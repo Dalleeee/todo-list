@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="left-bar">
+      <h1>What To Do...</h1>
+        <ul id="upper-nav">
+            <li><a href="#">Inbox</a></li>
+            <li><a href="#">Today</a></li>
+            <li><a href="#">Next 7 Days</a></li>
+        </ul>
+        <ul id="lower-nav">
+          <h2 id="project">Projects</h2>
+          <button id="cool">Create a New Project</button>
+        </ul>
+    </div>
+    <div id="container">
+        <h3>Today</h3>
+        <!--<div class="project-name">
+          <form>
+            <input type="text" name="project" placeholder="Project Name..." id="project-name" required>
+            <button id="set-name">Submit</button>
+          </form>
+        </div>-->
+        <div class="form-popup">
+          <form>
+            <input type="text" name="title" placeholder="Title..." id="form-title" required>
+            <input type="text" name="description" placeholder="Description..." id="form-d" required>
+            <input type="date" name="date" placeholder="Due..." id="form-date" required>
+            <input type="text" name="title" placeholder="Priority..." id="form-p" required>
+            <button id="submit-button">Submit?</button>
+            <button type="submit" id="cancel-button">X</button>
+          </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

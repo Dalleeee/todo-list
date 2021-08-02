@@ -1,0 +1,90 @@
+html {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+h1 {
+    color: rgb(255, 241, 215);
+}
+
+.left-bar {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#lower-nav {
+    position: relative;
+    top: 200px;
+    width: 350px;
+}
+
+#container {
+    transform: translate(0px, 35px);
+}
+
+.container-text {
+    color: rgb(255, 241, 215);
+    text-transform:uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+    margin: 5px;
+}
+
+a {
+    color: rgb(255, 241, 215);
+}
+
+/*li:hover {
+    text-decoration: underline;
+}*/
+
+button {
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 5px;
+    background-color: rgb(255, 241, 215);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#project {
+    position: relative;
+    left: -35px;
+    color: rgb(255, 241, 215);
+}
+
+.container-background {
+    background-color: rgb(97, 87, 87);
+}
+
+.form-popup {
+    display: none;
+}
